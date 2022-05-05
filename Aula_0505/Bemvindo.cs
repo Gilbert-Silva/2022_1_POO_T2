@@ -6,5 +6,6 @@ class Program {
     string s = Console.ReadLine();
     Console.WriteLine("Olá, " + s);
     Console.WriteLine("Olá, " + s);
+    Console.WriteLine("Olá, " + s);
   }
 }
