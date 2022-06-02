@@ -67,6 +67,11 @@ class Program {
     //var r = Console.ReadLine().Split().Select(TamanhodaString).ToArray();
     //Console.WriteLine(r[0] + r[1]);
 
+    //ApostaLoteria[] vetor = new ApostaLoteria[10];
+    //for(int k = 0; k < 10; k++)
+    //  vetor[k] = new ApostaLoteria(1, 2, 3, 4, 5, 6);
+
+    
     Console.WriteLine("Informe 6 valores do resultado");
     s = Console.ReadLine().Split();
     a = int.Parse(s[0]);
