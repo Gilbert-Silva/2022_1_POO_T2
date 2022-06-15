@@ -1,4 +1,4 @@
-run = "mcs -out:Main.exe './Aula_0609/exemplo.cs' ; mono Main.exe"
+run = "mcs -out:Main.exe './Aula_0615/Lista05Ex03.cs' ; mono Main.exe"
 #run = "python3 ./Aula_0608/exemplo.py"
 #run = "g++ -o main.exe ./Aula_0519/extipos.cpp ; ./main.exe"
 #run = "javac -d ./ './Aula_0527/lista03ex02.java' ; java Program"
