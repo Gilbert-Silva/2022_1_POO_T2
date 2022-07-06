@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 class Lote : IComparable {
   public string Numero { get; set; }
@@ -31,11 +32,14 @@ class Medicamento {
   public Lote[] Listar() {          // Select
     Lote[] aux = new Lote[k];
     Array.Copy(lotes, aux, k);
+    //var col = aux.OrderByDescending(x => x.Estoque);
+    //return col.ToArray();
     Array.Sort(aux);
     return aux;
     //return lotes;
   }
   public Lote[] Pesquisar(int mes, int ano) {   // Where
+    /*
     // Contar: quantos elementos satisfazem a pesquisa?
     int cont = 0;
     foreach(Lote l in this.Listar())
@@ -47,6 +51,9 @@ class Medicamento {
       if (l.Vencimento.Month == mes && 
           l.Vencimento.Year == ano) aux[i++] = l;
     return aux;
+    */
+    return Listar().Where(x => x.Vencimento.Month == mes
+                               && x.Vencimento.Year == ano).ToArray();
     //return lotes;
   }
   public int Total(int mes, int ano) {   // Sum
