@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPais xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Pais>
+    <Nome>Brasil</Nome>
+    <Ouro>10</Ouro>
+    <Prata>5</Prata>
+    <Bronze>15</Bronze>
+  </Pais>
+  <Pais>
+    <Nome>Japão</Nome>
+    <Ouro>15</Ouro>
+    <Prata>8</Prata>
+    <Bronze>5</Bronze>
+  </Pais>
+  <Pais>
+    <Nome>Argentina</Nome>
+    <Ouro>4</Ouro>
+    <Prata>3</Prata>
+    <Bronze>10</Bronze>
+  </Pais>
+  <Pais>
+    <Nome>EUA</Nome>
+    <Ouro>10</Ouro>
+    <Prata>15</Prata>
+    <Bronze>20</Bronze>
+  </Pais>
+</ArrayOfPais>
