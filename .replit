@@ -1,4 +1,4 @@
-#run = "mcs -out:Main.exe './Aula_0721/Program.cs' './Aula_0721/Categoria.cs' './Aula_0721/NCategoria.cs' ; mono Main.exe"
-run = "python3 ./Aula_0519/exmatch.py"
+run = "mcs -out:Main.exe './Aula_0729/Program.cs' './Aula_0729/Categoria.cs' './Aula_0729/Produto.cs'  './Aula_0729/Cliente.cs' './Aula_0729/Usuario.cs'  './Aula_0729/Venda.cs' './Aula_0729/VendaItem.cs' './Aula_0729/NCategoria.cs' './Aula_0729/NProduto.cs' './Aula_0729/NCliente.cs' './Aula_0729/NUsuario.cs' './Aula_0729/NVenda.cs' './Aula_0729/NVendaItem.cs' ; mono Main.exe"
+#run = "python3 ./Aula_0519/exmatch.py"
 #run = "g++ -o main.exe ./Aula_0519/extipos.cpp ; ./main.exe"
 #run = "javac -d ./ './Aula_0527/lista03ex02.java' ; java Program"
